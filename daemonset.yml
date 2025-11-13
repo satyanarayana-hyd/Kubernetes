@@ -27,7 +27,7 @@ spec:
     app: mavenwebapp
   ports:
   - port: 80
-    targetPort: 8081
+    targetPort: 8080
     nodePort: 31111
   type: NodePort
                 
