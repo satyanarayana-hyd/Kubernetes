@@ -16,7 +16,7 @@ spec:
       - name: mavenwebappcontainer
         image:  dockerhandson/maven-web-app
         ports:
-        - containerPort: 8080
+        - containerPort: 8081
 ---
 apiVersion: v1
 kind: Service
